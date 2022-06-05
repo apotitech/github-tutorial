@@ -1,0 +1,17 @@
+###################
+.DS_Store
+.DS_Store?
+.Trashes
+Thumbs.db
+*.tfstate
+*.tfstate.backup
+
+committed a project and wanted to go back to remove the log files, this is how that would look:
+
+$ git rm --cached *.log
+$ git commit -m "Start ignoring *.log files"
+1
+2
+$ git rm --cached *.log
+$ git commit -m "Start ignoring *.log files"
+We have to
